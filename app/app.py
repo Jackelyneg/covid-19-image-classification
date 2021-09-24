@@ -3,8 +3,9 @@ import numpy as np
 import pandas as pd
 import pickle
 app = Flask(__name__)
+model = "\Covid19 Project\covid-19-image-classification\model2.pkl"
 # run_with_ngrok(app)
-model = pickle.load(open("model2.pkl", 'rb'))  # file path may be different
+model = pickle.load(open(model, 'rb'))  # file path may be different
 
 @app.route('/')
 def home():
