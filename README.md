@@ -31,12 +31,6 @@ lets the person enter the zip code and then find hospitals with beds available f
 - Merged different datasets (Hospital/zip)
 
 
-### Target Variable :(X-ray/Symptoms)
-- Covid yes/no
-- Converted symptoms and Chest X-rays into Binary labels for 1=possible covid case and 0=No covid case
-
-
-
 ## Technologies Used:
 - Pandas
 - JavaScript
@@ -50,22 +44,33 @@ lets the person enter the zip code and then find hospitals with beds available f
 - Sklearn
 - Matplotlib
 
-## X-Ray 
 
+## X-Ray Model
+The Xray Model was designed to expedite accurate diagnosis of COVID 19 using digital chest X-ray images.
+The aim is for a rapid automatic classification of COVID-19 pneumonia from  normal Chest X-ray images.
+<img src="https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/image%20(3).png" width="550" height="550">
+#### Data for Xray Model
+Dataset used incuded 94 Chest Xray Images(69(Covid Poistive),25(Normal))
+![Data](https://github.com/Jackelyneg/covid-19-image-classification/blob/main/X-ray-Model_/xray.zip)
+###### Model Builing and Predictions
+- We used TF Keras Image Processing to  Split the dataset into Testing and Tranning.
+- We use Convolutional neural Network for our Model Creation.
 ![Network](https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/network.PNG)
-![val](https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/train-val.PNG)
+ In our Model we used 4 convoluted layers, Activation Algorithm(Relu),filters(16,32,64,128)and Kernel(3*3 Matrix).We used Softmax for our classification.
+ We used Categorical Crossentropy to calculate Loss.
+- Scored : We got Training Accuracy=0.97 and Validation/Testing Accuracy=0.944.
+<img src="https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/train-val.PNG" width="300" height="300">
+-Predicted: We were able to correctly classify the covid poitive as well as normal Chest Xrays.
 
 ![class 1](https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/class%200.PNG)
 
 ![class 0](https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/class%201.PNG)
 
-<img src="https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/xray%20graph.png" width="300" height="250">
+![Code For the Xraymodel](https://github.com/Jackelyneg/covid-19-image-classification/blob/main/X-ray-Model_/xraymodel.ipynb)
 
 
 
-
-
-## Symptoms
+## Symptoms Model
 ### Data
 <img src="https://user-images.githubusercontent.com/81592631/134627210-c77ca715-280e-4b16-8390-a1be5bc9eb9d.png" >
 
