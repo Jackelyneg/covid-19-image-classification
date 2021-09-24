@@ -15,7 +15,7 @@
 
 ## Purpose
 The app takes in x-ray of patients and detects weather the lungs are infected with covid 19 or not. To achieve our aim, we are using machine learning image processing algorithms. This part of the app is useful for the technicians to get a speedy outcome. The other part of the project is primarily catered for patients. We will be using another machine learning algorithm where  the patients can enter their symptoms and on that basis the model will detect whether they have covid or not.once detected positive, the  app
-lets the person enter the zip code and then find hospitals with beds available for covid 19 patients within 5 miles.
+lets the person enter the zip code and then find hospitals with beds available for covid 19 patients within 15 miles.
  
 
 # List of Data Sources
