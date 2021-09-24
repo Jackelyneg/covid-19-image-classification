@@ -64,7 +64,7 @@ Once predicted positive the user will have the opportunity to input their zip co
 ## X-Ray 
 
 ![Network](https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/network.PNG)
-![val](https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/network.PNG)
+![val](https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/train-val.PNG)
 
 
 
