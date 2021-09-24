@@ -14,20 +14,9 @@
 
 
 ## Purpose
-As the world grapples with COVID-19, every ounce of technological innovation and ingenuity harnessed to fight this pandemic brings us one step closer to overcoming it.
+The app takes in x-ray of patients and detects weather the lungs are infected with covid 19 or not. To achieve our aim, we are using machine learning image processing algorithms. This part of the app is useful for the technicians to get a speedy outcome. The other part of the project is primarily catered for patients. We will be using another machine learning algorithm where  the patients can enter their symptoms and on that basis the model will detect whether they have covid or not.once detected positive, the  app
+lets the person enter the zip code and then find hospitals with beds available for covid 19 patients within 15 miles.
  
-AI, a core technology of the fourth industrial revolution, has come up as an important non-medical intervention to overcome the current global health crisis, to build next-generation epidemic preparedness, and to move towards a resilient recovery.
-
-Effective screening enables quick and efficient diagnosis of COVID-19 and can mitigate the burden on healthcare systems
-
- In this project,we propose two Machine learning models to assist in faster screening of COVID 19.
- 
- 
- ## Model 
-Our model(s) aim to predict whether a person has a risk of COVID19 through chest X-rays and  symptom checker.
-Once predicted positive the user will have the opportunity to input their zip code and search hospitals within a 15 miles radius.
-
-
 
 # List of Data Sources
 - [Covid-19 Chest X-ray Images](https://www.kaggle.com/debajyoti1/covid19-classification-x-ray/data) 
@@ -66,12 +55,16 @@ Once predicted positive the user will have the opportunity to input their zip co
 ![Network](https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/network.PNG)
 ![val](https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/train-val.PNG)
 
+![class 1](https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/class%200.PNG)
+
+![class 0](https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/class%201.PNG)
+
 
 
 ## Symptoms
 
 ### Model Comparison(Symptoms):
-![image](https://user-images.githubusercontent.com/81592631/134608547-3a4eee18-01da-4246-9dc1-799f2c01f316.png)
+<img src="https://user-images.githubusercontent.com/81592631/134608547-3a4eee18-01da-4246-9dc1-799f2c01f316.png" width="600" height="250">
 
 - 5 models were done to the dataset
 - Target Variable: Covid yes/no binary classification of 1 = yes, no = 0
