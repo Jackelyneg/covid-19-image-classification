@@ -102,8 +102,10 @@ Recall:
 - Fever
 
 ## Loading The Saved Models/predicting the Results/ FLASK Deployment
-Finally We loaded out Models, Combined them in google colab and then deployed in an app using Flask. following is the link for our code.
+Finally We loaded out Models, Combined them in google colab and then deployed in an app using Flask. Following is the link for our code.
 ![CODE](https://github.com/Jackelyneg/covid-19-image-classification/blob/main/flaskapp_Xray_symptoms_map.ipynb)
+
+
 
 
 
