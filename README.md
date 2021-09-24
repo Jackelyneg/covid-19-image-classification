@@ -66,40 +66,35 @@ lets the person enter the zip code and then find hospitals with beds available f
 
 
 ## Symptoms
+### Data
+<img src="https://user-images.githubusercontent.com/81592631/134627210-c77ca715-280e-4b16-8390-a1be5bc9eb9d.png" >
 
+-  In the data set there are symptoms like the ones listed above that will be used as our features
+- The column Covid 19 is our target label
+- The data consists of 0's and 1's meaning 1: the symptom is present and 0: the symptom is not present
 ### Model Comparison(Symptoms):
-<img src="https://user-images.githubusercontent.com/81592631/134608547-3a4eee18-01da-4246-9dc1-799f2c01f316.png" width="600" height="300">
+
+<img src="https://user-images.githubusercontent.com/81592631/134608547-3a4eee18-01da-4246-9dc1-799f2c01f316.png" width="500" height="300">
 
 - 5 models were done to the dataset
 - Target Variable: Covid yes/no binary classification of 1 = yes, no = 0
 - Random Forest has the highest score with an accuracy of .98 and a recall of .99. This model tends to have high accuracy prediction and can handle large numbers of features due to the embedded feature selection in the model generation process.
-
-
-
 #### Metric of choice (Symptoms):
 Recall:
+
 - Model should have a recall as close to 1 as possible to reduce False Negatives
-
 - Recall is being used as the selected metric because we need the percentage of actual positive results predicted correctly.
-
 #### Top Features for Symptoms Data
 
+<img src="https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/symptoms%20weight.PNG" width="600" height="300">
 
+- Uing eli5, an explanation of estimator parameters (weights) is reutned displaying model weights as an HTML table with the top positive features in the table.
+##### Top features for Covid symptoms:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Breathing Problems
+- Dry cough
+- Sore throat
+- Fever
 
 
 
