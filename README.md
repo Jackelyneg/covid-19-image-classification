@@ -91,30 +91,15 @@ Recall:
 - Recall is being used as the selected metric because we need the percentage of actual positive results predicted correctly.
 
 #### Top Features for Symptoms Data
+<img src="https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/symptoms%20weight.PNG" width="300" height="250">
 
+- Using eli5, an explanation of estimator parameters (weights) was returned displaying model weights as an HTML table with the top positive features in the table.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+###### Top features for Covid symptoms:
+- Breathing Problems
+- Dry cough
+- Sore throat
+- Fever
 
 
 
