@@ -63,6 +63,8 @@ Once predicted positive the user will have the opportunity to input their zip co
 
 ## X-Ray 
 
+https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/network.PNG
+
 
 
 ## Symptoms
