@@ -75,7 +75,7 @@ Once predicted positive the user will have the opportunity to input their zip co
 ## Symptoms
 
 ### Model Comparison(Symptoms):
-![image](https://user-images.githubusercontent.com/81592631/134608547-3a4eee18-01da-4246-9dc1-799f2c01f316.png)
+<img src="https://user-images.githubusercontent.com/81592631/134608547-3a4eee18-01da-4246-9dc1-799f2c01f316.png" width="600" height="250">
 
 - 5 models were done to the dataset
 - Target Variable: Covid yes/no binary classification of 1 = yes, no = 0
