@@ -59,12 +59,16 @@ lets the person enter the zip code and then find hospitals with beds available f
 
 ![class 0](https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/class%201.PNG)
 
+<img src="https://github.com/Jackelyneg/covid-19-image-classification/blob/main/Images/xray%20graph.png" width="300" height="250">
+
+
+
 
 
 ## Symptoms
 
 ### Model Comparison(Symptoms):
-<img src="https://user-images.githubusercontent.com/81592631/134608547-3a4eee18-01da-4246-9dc1-799f2c01f316.png" width="600" height="250">
+<img src="https://user-images.githubusercontent.com/81592631/134608547-3a4eee18-01da-4246-9dc1-799f2c01f316.png" width="600" height="300">
 
 - 5 models were done to the dataset
 - Target Variable: Covid yes/no binary classification of 1 = yes, no = 0
