@@ -78,9 +78,28 @@ Once predicted positive the user will have the opportunity to input their zip co
 
 #### Metric of choice (Symptoms):
 Recall:
-Model should have a recall as close to 1 as possible to reduce False Negatives
+- Model should have a recall as close to 1 as possible to reduce False Negatives
 
-Recall is being used as the selected metric because we need the percentage of actual positive results predicted correctly.
+- Recall is being used as the selected metric because we need the percentage of actual positive results predicted correctly.
+
+#### Top Features for Symptoms Data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
